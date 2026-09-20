@@ -1,0 +1,23 @@
+DersFidan 9.6.0
+
+- Hayvan ekranına tokluk, sevgi ve ruh hali sistemi eklendi.
+- Hayvana dokunmak sevgiyi artırır ve kalp tepkisi gösterir.
+- Market'e ortak Hayvan Yemi sekmesi ve üç yem paketi eklendi.
+- Besleme bir yem tüketir; tokluk/sevgiyi ve yaş bakım ilerlemesini artırır.
+- Hayvanın konuşmaları açlık ve sevgi durumuna göre değişir.
+- Yem envanteri, yem harcaması ve bakım değerleri bulut hesabına yedeklenir.
+- Room 7 -> 8 migration eklendi; mevcut kullanıcı ilerlemesi korunur.
+- Hayvan galerisine onaylanan sıcak, resimli çiftlik habitat arka planı eklendi.
+- Karanlık temada habitat üstüne okunabilirlik katmanı uygulanır.
+
+Android Studio testi:
+1. ZIP'i klasöre çıkar ve proje kökünü aç.
+2. Gradle Sync tamamlandıktan sonra Build > Make Project çalıştır.
+3. Eski uygulamanın üstüne kurarak verilerin korunduğunu kontrol et.
+4. Market > Yem bölümünden yem satın al.
+5. Hayvanlar bölümünde hayvana dokun, Besle ve Merhaba de işlemlerini dene.
+6. Çıkış/giriş yapıp yem, tokluk ve sevgi değerlerinin geri geldiğini kontrol et.
+
+Not: Bu çalışma ortamı Gradle 8.7 paketini indiremeyecek kadar ağ kısıtlı olduğu için
+yerel Android derlemesi başlatılamadı. Android Studio bir derleme hatası gösterirse
+hata metnini aynen gönder.
