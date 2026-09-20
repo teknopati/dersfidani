@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <files-path name="notlar" path="notlar/" />
+    <files-path name="profil" path="profil/" />
+</paths>
